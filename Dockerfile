@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.1.3
+ENV VERSION=1.2.0
 
 RUN gem install acts_as_solr --version ${VERSION} --no-format-exec
 
